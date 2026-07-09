@@ -275,3 +275,67 @@ footer {
   border-top: 1px solid #eee0d3;
   font-size: 0.9rem;
 }
+/* ===== TABLET (max-width: 900px) ===== */
+@media (max-width: 900px) {
+  .hero {
+    padding: 60px 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-text p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section {
+    padding: 50px 30px;
+  }
+
+  .projects-container,
+  .skills-container {
+    gap: 20px;
+  }
+}
+
+/* ===== MOBILE (max-width: 600px) ===== */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-image img {
+    max-width: 200px;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  .project-card,
+  .skill-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

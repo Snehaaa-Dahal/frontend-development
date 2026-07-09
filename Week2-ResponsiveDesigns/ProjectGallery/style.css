@@ -37,7 +37,6 @@ h1 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Card hover effect */
 .project:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
@@ -62,18 +61,7 @@ h1 {
   font-size: 0.95rem;
   line-height: 1.6;
 }
-.project {
-  background-color: #fff;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.project:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
-}
 /* Tablet */
 @media (max-width: 900px) {
   body {
