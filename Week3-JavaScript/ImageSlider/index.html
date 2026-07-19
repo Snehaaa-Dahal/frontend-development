@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="slider-container">
+    <h1>Coffee Corner Gallery</h1>
+
+    <div class="slider">
+      <button class="nav-btn prev-btn" onclick="prevSlide()">&#10094;</button>
+
+      <div class="slide">
+        <div class="slide-image" id="slideImage"></div>
+        <p class="slide-title" id="slideTitle">Espresso</p>
+      </div>
+
+      <button class="nav-btn next-btn" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
