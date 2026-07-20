@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Corner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">&#9749; Coffee Corner</div>
+
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeBtn" class="theme-btn">&#9788;</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <h1>Freshly Brewed, Just For You</h1>
+    <p>Warm, cozy, and always welcoming — your neighborhood spot for great coffee and good company.</p>
+    <button class="btn-primary">View Menu</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Coffee Corner started as a small family dream — to serve honest, high-quality coffee in a warm and welcoming space. Every cup is brewed with care.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        What are your opening hours?
+        <span class="icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>We're open every day from 7:00 AM to 9:00 PM.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Do you offer delivery?
+        <span class="icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes, within a 5km radius through our partner apps.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Do you have vegan options?
+        <span class="icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes, we have vegan pastries and plant-based milk options.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name">
+        <span class="error-message" id="nameError"></span>
+      </div>
+      <div class="form-group">
+        <input type="text" id="email" placeholder="Your Email">
+        <span class="error-message" id="emailError"></span>
+      </div>
+      <div class="form-group">
+        <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+        <span class="error-message" id="messageError"></span>
+      </div>
+      <button type="submit" class="btn-primary">Send Message</button>
+      <div class="success-message" id="successMessage">&#9989; Message sent successfully!</div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Coffee Corner. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top">&#8593;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
